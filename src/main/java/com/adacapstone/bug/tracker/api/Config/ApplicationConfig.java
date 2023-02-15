@@ -3,6 +3,7 @@ package com.adacapstone.bug.tracker.api.Config;
 import com.adacapstone.bug.tracker.api.User.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.AuthenticationProvider;
@@ -16,6 +17,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 //holds all application configs like beans
 @Configuration
 @RequiredArgsConstructor
+@ComponentScan
 public class ApplicationConfig {
     private final UserRepository repository;
     @Bean
