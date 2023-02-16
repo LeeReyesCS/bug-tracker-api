@@ -35,7 +35,8 @@ public class AuthenticationService {
     // authenticates user, exception thrown if not correct
     public AuthenticationResponse authenticate(AuthenticationRequest request) {
         authenticationManager.authenticate(
-                new UsernamePasswordAuthenticationToken(request.getEmail(),
+                new UsernamePasswordAuthenticationToken(
+                        request.getEmail(),
                         request.getPassword()
                 )
         );

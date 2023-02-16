@@ -1,6 +1,0 @@
-export DATABASE_URL=postgres://mmshujhgcqauhr:efca70108af207a20ca969fcd3cb201756734e8aa7a817ab9510ea0b0f8b67f0@ec2-35-168-194-15.compute-1.amazonaws.com:5432/dbb39cjhnjsvmp
-export PROD_DB_HOST=ec2-35-168-194-15.compute-1.amazonaws.com
-export PROD_DB_NAME=dbb39cjhnjsvmp
-export PROD_DB_PASSWORD=efca70108af207a20ca969fcd3cb201756734e8aa7a817ab9510ea0b0f8b67f0
-export PROD_DB_PORT=5432
-export PROD_DB_USERNAME=mmshujhgcqauhr

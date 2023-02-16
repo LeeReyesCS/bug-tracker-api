@@ -22,7 +22,9 @@ public class AuthenticationController {
     }
     //endpoint to authenticate user
     @PostMapping("/authenticate")
-    public ResponseEntity<AuthenticationResponse> register (@RequestBody AuthenticationRequest request) { // param holds email, pass, etc.
+    public ResponseEntity<AuthenticationResponse> authenticate(
+            @RequestBody AuthenticationRequest request
+    ) {
         return ResponseEntity.ok(service.authenticate(request));
     }
 
