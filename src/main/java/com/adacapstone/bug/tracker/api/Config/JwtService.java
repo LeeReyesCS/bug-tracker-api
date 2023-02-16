@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-@Service("userDetailsService")
+@Service()
 public class JwtService {
     @Value("${apiKey}")
     private /*static final*/ String SECRET_KEY;
