@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://bug-tracker-frontend.herokuapp.com")
 public class BugUserController {
     @Autowired
     private final BugRepository bugRepository;
